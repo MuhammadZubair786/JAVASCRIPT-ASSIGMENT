@@ -255,6 +255,7 @@
 // var res = Math.floor((numb * 100) +1)
 // document.writeln("<h1 style='color:red'>random number between 1 and 100 :"+ res+"</h1>")
 
+<<<<<<< HEAD
 // //Task No 7
 
 // //Task No 8
@@ -268,6 +269,9 @@
 //     alert("Try Again!\n You choose Incorrect Number :")
 
 // }
+=======
+
+>>>>>>> 68b3025d50499ff4357f2d94300a26fd30805e52
 
 
 // //Chapter 31-34
