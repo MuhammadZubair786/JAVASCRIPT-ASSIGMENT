@@ -231,70 +231,175 @@
 // document.write("<h1 style='color:brown'>The Absolute Value Of "+ inp +" is "+ abs+"</h1>")
 
 //Task No 4
-var numb = Math.random()
- var res = Math.floor((numb * 6) +1)
-document.writeln("<h1 style='color:blue'>Random Dice Value :"+ res+"</h1>")
+// var numb = Math.random()
+//  var res = Math.floor((numb * 6) +1)
+// document.writeln("<h1 style='color:blue'>Random Dice Value :"+ res+"</h1>")
 
 
-//Task No 5
+// //Task No 5
 
-var numb = Math.random()
- var res = Math.floor((numb * 2) +1)
- document.write("<h1 style='color:brown'> "+ res +"</h1>")
- var sel = ""
-if (res ==1){
-    sel = "Tail"
-}
-else{
-    sel = "Head"
-}
-document.writeln("<h2 style='color:green'>Random Coin Value :"+ sel+"</h2>")
+// var numb = Math.random()
+//  var res = Math.floor((numb * 2) +1)
+//  document.write("<h1 style='color:brown'> "+ res +"</h1>")
+//  var sel = ""
+// if (res ==1){
+//     sel = "Tail"
+// }
+// else{
+//     sel = "Head"
+// }
+// document.writeln("<h2 style='color:green'>Random Coin Value :"+ sel+"</h2>")
 
-//Task No 6
-var numb = Math.random()
-var res = Math.floor((numb * 100) +1)
-document.writeln("<h1 style='color:red'>random number between 1 and 100 :"+ res+"</h1>")
+// //Task No 6
+// var numb = Math.random()
+// var res = Math.floor((numb * 100) +1)
+// document.writeln("<h1 style='color:red'>random number between 1 and 100 :"+ res+"</h1>")
 
-//Task No 7
+// //Task No 7
 
-//Task No 8
-var numb = Math.random()
-var res = Math.floor((numb * 10) +1)
-var inp=prompt("Enter a number Between 1 to 10")
-if(res == inp ){
-    alert("Congralution You choose correct Number :")
-}
-else{
-    alert("Try Again!\n You choose Incorrect Number :")
+// //Task No 8
+// var numb = Math.random()
+// var res = Math.floor((numb * 10) +1)
+// var inp=prompt("Enter a number Between 1 to 10")
+// if(res == inp ){
+//     alert("Congralution You choose correct Number :")
+// }
+// else{
+//     alert("Try Again!\n You choose Incorrect Number :")
 
-}
+// }
 
 
-//Chapter 31-34
-//Task No 1
-var date=new Date()
-document.writeln("<h1> Current Date And Time :"+date+"</h1>")
+// //Chapter 31-34
+// //Task No 1
+// var date=new Date()
+// document.writeln("<h1> Current Date And Time :"+date+"</h1>")
 
-//Task No 2
+// //Task No 2
+// var monarry=["JANUARY","FEBRUARY","MARCH","APRIL","MAY","JUNE","JULY","AUGUST","SEPTEMBER","OCTOBER","NOVEMBER","DECEMBER"]
+// var date=new Date()
+// var mon=date.getMonth()
+// document.writeln("<h1 style='color:blue'> Current Month :"+monarry[mon]+"</h1>")
+
+// //Task No 3
+// var dayarry = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]
+// var date=new Date()
+// var day=date.getDay()
+// document.writeln("<h1 style='color:green'> Current Day :"+dayarry[day]+"</h1>")
+
+// //Task No 4
+// var date=new Date()
+// sdate=date.toString().slice(0,3)
+// if(sdate=="sun" || sdate=="sat")
+// {
+//     alert("Date :"+sdate+"\nIt's Fun Date")
+//     document.write("<h1 style='color: #5F0205 '>Date :"+sdate+"===>It's Fun Date</h1>")
+
+// }
+// else{
+//     alert("Date :"+sdate+"\nIt's not a Fun Date")
+//     document.write("<h1 style='color: #5F0205 '>Date :"+sdate+"===>It's Not a Fun Date</h1>")
+// }
+
+
+// //Task No 5
+// var Tdate=new Date()
+// var date=date.getDate()
+// document.write("<h1 style='color:brown'>TODAY DATE :"+date+"</h1>")
+// if(date<=15){
+//     alert("First fifteen days of the month")
+// }
+
+// else{
+//     alert("Last days of the month")
+// }
+// //Task No 6
+// var date=new Date()
+// var tmsec=date.getTime()
+// var smin=tmsec/(1000*60*60)
+// document.writeln("<h1 style='color:#0F6DA7'> Current Date :"+date+"</h1>")
+// document.writeln("<h1 style='color:#0F6DA7 '> Elapsed milisecond since 1970 1 january : "+tmsec+"</h1>")
+// document.writeln("<h1 style='color:#0F6DA7 '> Elapsed Minutes since 1970 1 january  : "+smin+"</h1>")
+
+
+// //Task No 7
+// var date=new Date()
+// var th=date.getHours()
+// var tm=date.getMinutes()
+// var tt=th.toString()+tm.toString()
+// document.write("<h1 style='color:red'>Time ==> Hours : "+th+" Minutes : "+tm+"</h1>")
+// if(tt>0000 && tt<=1159){
+//     alert("It's Am")
+// }
+// else{
+//     alert("It's Am")
+// }
+
+
+// // t1=00:00
+// // t2=11:59
+// // t3=12:00
+// // t4=23:59
+
+// //Task No 8
+// var d = new Date(2020, 11, 31);
+// document.write("<h1 style='color:#58D68D'>Later Date ==> "+d+"</h1>")
+
+// //Task No 9
+// var dmon=new Date("June 18, 2015")
+// var tdate=new Date()
+// var diff=tdate.getTime()-dmon.getTime()
+// var accurate=Math.floor(diff/(1000*60*60*24))
+// document.write("<h1 style='color:#E74C3C '>"+accurate+" day Passed Since 1st Ramadan 2015</h1>")
+
+// //Task No 10
+// var dmon=new Date("Jan 1, 2015")
+// var tdate=new Date()
+// var diff=tdate.getTime()-dmon.getTime()
+// var accurate=Math.floor(diff/(1000*60))
+// document.write("<h1 style='color:blue'>On Refernce Date "+ tdate+"",+accurate+" Second Passed Since 1st Ramadan 2015</h1>")
+
+//Task No 11
+var cdate=new Date()
+var pdate=new Date()
+var phdate=pdate.setHours(pdate.getHours()-1)
+var agodate=new Date(phdate)
+document.write("<h1 style='color:blue'>Current Date : "+cdate+"<br>1 Hour Ago,it was "+agodate+"</h1>")
+
+//Task No 12
+var cdate=new Date()
+var pdate=new Date()
+var pydate=pdate.setFullYear(pdate.getFullYear()-100)
+var agoyear=new Date(pydate)
+document.write("<h1 style='color:green'>Current Date :"+cdate+"<br>100 Year Back,it was "+agoyear+"</h1>")
+
+//Task No 13
+var age =prompt("Enter Age ")
+var cdate=new Date()
+var pdate=new Date()
+var pydate=pdate.setFullYear(pdate.getFullYear()-age)
+pydate=new Date(pydate)
+document.write("<h1 style='color:red'>Your Age :"+age+"<br>")
+document.write("Your Brith Year is :"+pydate.getFullYear()+"</h1>")
+
+
+//Task No 14
 var monarry=["JANUARY","FEBRUARY","MARCH","APRIL","MAY","JUNE","JULY","AUGUST","SEPTEMBER","OCTOBER","NOVEMBER","DECEMBER"]
+var cname=prompt("Enter Custromer Name :")
 var date=new Date()
 var mon=date.getMonth()
-document.writeln("<h1 style='color:blue'> Current Month :"+monarry[mon]+"</h1>")
+var nunit=prompt("Enter A Number Of Units : ")
+const cunit=16
+var scharge=350
+var pdate=nunit*cunit
+var ddate=pdate+scharge
+document.write("<h1 style='color:brown;font-size:50px' > k-Electric Bill </h1>")
+document.write("<h1 style='color:red' >Customer Name : "+cname+" </h1>")
+document.write("<h1 style='color:red' >Month  : "+monarry[mon]+"</h1>")
+document.write("<h1 style='color:green' >Number Of Unit  : "+nunit+"</h1>")
+document.write("<h1 style='color:green' >Charges Per Unit : "+cunit+"</h1>")
+document.write("<br><h1 style='color:blue' >Net Amount Payable (Within Due Date ) : "+pdate+"</h1>")
+document.write("<h1 style='color:blue' >Late Payment SurCharge :  "+scharge+"</h1>")
+document.write("<h1 style='color:blue' >Gross Amount Payable (After Due Date) : "+ddate+"<br>")
 
-//Task No 3
-var dayarry = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]
-var date=new Date()
-var day=date.getDay()
-document.writeln("<h1 style='color:green'> Current Day :"+dayarry[day]+"</h1>")
-
-//Task No 4
-var Tdate=new Date()
-var date=date.getDate()
-document.write(date)
-
-
-JAVASCRIPT-ASSIGMENT
-
-https://github.com/MuhammadZubair786/JAVASCRIPT-ASSIGMENT
-
-
+document.write("-- END --</h1>")
