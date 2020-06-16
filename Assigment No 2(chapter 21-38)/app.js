@@ -293,8 +293,6 @@ var date=date.getDate()
 document.write(date)
 
 
-JAVASCRIPT-ASSIGMENT
 
-https://github.com/MuhammadZubair786/JAVASCRIPT-ASSIGMENT
 
 
