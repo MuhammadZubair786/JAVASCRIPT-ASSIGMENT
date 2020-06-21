@@ -315,6 +315,10 @@
 
 //========>Task No 7
 
+// inp=prompt("User Input :")
+// inp=inp.toString().toLowerCase()
+// inp=inp.split("k")
+// document.write("<h1 style='color:blue'>Your Weight Is "+inp[0]+" Kilogram</h1>")
 
 
 //========>Task No 8
